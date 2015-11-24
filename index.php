@@ -1,25 +1,27 @@
  <?php include_once('functions.php'); ?>
- <?php $project_name = "Project"; ?>
+ <?php $project_name = "Kiwi Manager Admin "; ?>
 <!DOCTYPE html>
 
 <head>
 <meta charset="utf-8">
 <title><?php echo($project_name)?>Style Guide</title>
 <meta name="viewport" content="width=device-width">
+
 <!-- Style Guide Boilerplate Styles -->
 <link rel="stylesheet" href="css/styleguide.css">
-<link rel="stylesheet" href="css/bootstrap.css">
 
 <!-- Replace below stylesheet with your own stylesheet -->
-<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/kw-dashboard-theme.css">
+
+
 </head>
-<body   data-spy="scroll" data-target=".navbar-default" data-offset="60" >
+<body   data-spy="scroll" data-target=".navbar-default" data-offset="60">
 <!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
-    <div class="navbar-header"> <a class="navbar-brand" href="#"><strong><?php echo($project_name)?></strong> Style Guide</a> </div>
+    <div class="navbar-header"> <a class="navbar-brand sg-type-brand" href="#"><strong><?php echo($project_name)?></strong> Style Guide</a> </div>
     <ul class="nav navbar-nav navbar-right">
-      <li class="dropdown active"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Select an element: <b class="caret"></b></a>
+      <li class="dropdown active"> <a href="#" class="dropdown-toggle sg-type-brand" data-toggle="dropdown">Select an element: <b class="caret"></b></a>
         <ul class="dropdown-menu  scroll-menu sg-sect">
           <?php listElementsAsOptions('docs'); ?>
           <?php listElementsAsOptions('foundation'); ?>
@@ -38,22 +40,22 @@
 
 <div class="sg-body sg-container container">
 <div class="row">
-  <h1 class="page-header">Style Guide Documentation</h1>
+  <h1 class="page-header sg-h1">Style Guide Documentation</h1>
   <?php showDocs(); ?>
 </div>
 <!--/.row-->
 <div class="row">
-  <h1 class="page-header">Foundation</h1>
+  <h1 class="page-header sg-h1">Foundation</h1>
   <?php showFoundation(); ?>
 </div>
 <!--/.row-->
 
 <div class="row sg-base-styles">
-  <h1 class="page-header">Base Styles</h1>
+  <h1 class="page-header sg-h1">Base Styles</h1>
   <?php showMarkup('base'); ?>
   </div><!--/.sg-base-styles-->
   <div class="sg-pattern-styles">
-    <h1 class="page-header">Patterns<small> - Design and mark-up patterns unique to your site.</small></h1>
+    <h1 class="page-header sg-h1">Patterns<small> - Design and mark-up patterns</small></h1>
     <?php showMarkup('patterns'); ?>
   </div>
   <!--/.sg-pattern-styles-->

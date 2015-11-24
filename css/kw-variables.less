@@ -1,0 +1,290 @@
+
+// Variables
+// --------------------------------------------------
+
+
+//Images path of the project
+
+@url-image-path:        "../images/";
+
+//Colors Palette of the Kiwi
+// Define text, background and border color.
+
+
+@kw-brand-primary:       #1D242F;
+@kw-brand-secondary:     #3C4A60;
+@kw-brand-complementary: #45708D;
+
+// Secundary colors
+
+@kw-brand-danger:        #f5a623;
+@kw-brand-warning:       #e05e6e;
+@kw-brand-success: 		 #04cc53;
+@kw-brand-info:     	 #4a90e2;
+@kw-lightgray:			 #EDEDED;
+@kw-brand-movile:        #EE0298;
+
+// Neutrals palette colors
+
+@kw-neutral-dark: 		 #6E7F89;
+@kw-neutral-blue:		 #98B1C0;
+@kw-neutral-medium:	     #9B9B9B;
+@kw-neutral-light:       #DBDBDB;	
+
+
+
+// Colors & Style for buttons filters dashboard;
+@kw-btn-groups: 		#BFC6CF;
+@kw-bgr-btn-color:      #F1F3F7;
+@dropdown-color-switch: #293443;
+@dropdown-border-switch:#414F64;
+
+// Colors Charts / Infographics
+
+@kw-red-chart:          #EFAEB6;
+@kw-green-chart:        #ACF0B9;
+@kw-blue-chart:         #81E7FF;
+@kw-orange-chart:       #FAD291;
+@kw-gray-chart:         #D5E2F5;
+@kw-pink-chart:         #E59FF3;
+
+
+//== Scaffolding
+//
+// ## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+@body-bg:                  #FFF;
+
+//** Global text color on `<body>`.
+@kw-text-color:            @kw-brand-primary;
+
+//** Global textual link color.
+@link-color:               @kw-brand-secondary;
+
+//** Link hover color set via `darken()` function.
+@link-hover-color:         darken(@link-color, 15%);
+
+// Text link hover
+@kw-text-link-hover-color: @kw-brand-complementary;
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+@font-family-sans-serif:  'Source Sans Pro', sans-serif;
+
+//** Default fonts for `<code>`, `<kbd>`, and `<pre>`.
+@font-family-base:        @font-family-sans-serif;
+
+@font-size-base:          16px;
+@font-size-large:         ceil((@font-size-base * 1.12)); // ~18px
+@font-size-medium:        ceil((@font-size-base * 0.88)); // ~14px
+@font-size-small:         ceil((@font-size-base * 0.75)); // ~12px
+
+@font-size-h1:            floor((@font-size-base * 1.75)); // ~28px
+@font-size-h2:            floor((@font-size-base * 1.63)); // ~26px
+@font-size-h3:            ceil((@font-size-base * 1.28));  // ~22px
+@font-size-h4:            ceil((@font-size-base * 1.12));  // ~18px
+@font-size-h5:            @font-size-base;
+@font-size-h6:            ceil((@font-size-base * 0.75)); // ~12px
+
+//** Unit-less `line-height` for use in components like buttons.
+@line-height-base:        1.428571429; // 20/14
+
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+@line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
+
+//** By default, this inherits from the `<body>`.
+@headings-font-family:    @font-family-sans-serif;
+@headings-font-weight:    600;
+@headings-line-height:    1.1;
+@headings-color:          @kw-brand-info;
+
+//** Bold font
+@font-bold-weight: 		  700;
+
+
+
+
+//-- Iconography
+//
+//## Specify custom locations of the include Glyphicons icon font. Useful for those including Bootstrap via Bower.
+
+@icon-font-path:          "../fonts/";
+@icon-font-name:          "glyphicons-halflings-regular";
+@icon-font-svg-id:        "glyphicons_halflings-regular";
+
+
+//== Components
+//
+//## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).
+
+@padding-base-vertical:     14px;
+@padding-base-horizontal:   30px;
+
+@padding-large-vertical:    14px;
+@padding-large-horizontal:  16px;
+
+@padding-small-vertical:    5px;
+@padding-small-horizontal:  10px;
+
+@padding-xs-vertical:       1px;
+@padding-xs-horizontal:     5px;
+
+@line-height-large:         1.33;
+@line-height-small:         1.5;
+
+@border-radius-base:        4px;
+@border-radius-large:       6px;
+@border-radius-small:       3px;
+
+//** Global color for active items (e.g., navs or dropdowns).
+@component-active-color:    #fff;
+//** Global background color for active items (e.g., navs or dropdowns).
+@component-active-bg:       @kw-brand-primary;
+
+//** Width of the `border` for generating carets that indicator dropdowns.
+@caret-width-base:          4px;
+//** Carets increase slightly in size for larger components.
+@caret-width-large:         5px;
+
+
+//== Tables
+//
+//## Customizes the `.table` component with basic values, each used across all table variations.
+
+//** Padding for `<th>`s and `<td>`s.
+@table-cell-padding:            8px;
+//** Padding for cells in `.table-condensed`.
+@table-condensed-cell-padding:  5px;
+
+//** Default background color used for all tables.
+@table-bg:                      transparent;
+//** Background color used for `.table-striped`.
+@table-bg-accent:               #f9f9f9;
+//** Background color used for `.table-hover`.
+@table-bg-hover:                #F2F5F7;
+@table-bg-active:               @table-bg-hover;
+
+//** Border color for table and cell borders.
+@table-border-color:            #D2D5D9;
+
+
+//** Spacing line height for tables and cells
+@line-height-tables: 			3.128571429; // 20/35
+
+
+
+
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+@kw-btn-font-weight:             @headings-font-weight;
+
+@btn-default-color:              #fff;
+@btn-default-bg:                 @kw-brand-secondary;
+@btn-default-border:             @btn-default-bg;
+
+@btn-primary-color:              @btn-default-color;
+@btn-primary-bg:                 @kw-brand-secondary;
+@btn-primary-border:             @btn-primary-bg;
+
+@btn-success-color:              @btn-default-color;
+@btn-success-bg:                 @kw-brand-success;
+@btn-success-border:             @btn-success-bg;
+
+@btn-info-color:                 @btn-default-color;
+@btn-info-bg:                    @kw-brand-info;
+@btn-info-border:                @btn-info-bg;
+
+@btn-danger-color:               @btn-default-color;
+@btn-danger-bg:                  @kw-brand-danger;
+@btn-danger-border:              @btn-danger-bg;
+
+@btn-warning-color:              @btn-default-color;
+@btn-warning-bg:                 @kw-brand-warning;
+@btn-warning-border:             @btn-warning-bg;
+
+@btn-link-disabled-color:        @kw-neutral-light;
+
+@btn-cancel-color:              @btn-default-color;
+@btn-cancel-bg:                 @kw-neutral-medium;
+@btn-cancel-border:             @kw-neutral-medium;
+
+
+
+//== Forms Kiwi Dashboard
+//
+//##
+
+//** `<input>` background color
+@input-bg:                              #F9FBFC;
+//** `<input disabled>` background color
+@input-bg-disabled:                     @kw-neutral-light;
+
+//** Text color for `<input>`s
+@input-color:                    	    @kw-brand-complementary;
+//** `<input>` border color
+@input-border:                  	    #B7BEC9;
+
+
+//** `<input>` border radius
+@input-border-radius:               	@border-radius-base;
+
+
+//** Border color for inputs on focus
+@input-border-focus:                    lighten(@kw-brand-secondary, 30%);
+
+//** Placeholder text color
+@input-color-placeholder:               @kw-neutral-medium;
+
+//** Default `.form-control` height
+@input-height-base:                (@line-height-computed + (@padding-base-vertical * 2) + 2);
+//** Large `.form-control` height
+@input-height-large:             (ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 2);
+//** Small `.form-control` height
+@input-height-small:             (floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2);
+
+@legend-color:                   @kw-text-color;
+@egend-border-color:            #e5e5e5;
+
+//** Background color for textual input addons
+@input-group-addon-bg:           @kw-neutral-blue;
+
+//** Border color for textual input addons
+@input-group-addon-border-color: @input-border;
+
+
+//== Form states and alerts
+//
+//## Define colors for form feedback states and, by default, alerts.
+
+@state-success-text:             @kw-brand-success;
+@state-success-bg:               lighten(@kw-brand-success, 53%);
+@state-success-border:           darken(spin(@state-success-bg, -10), 5%);
+
+@state-info-text:                @kw-brand-info;
+@state-info-bg:                  lighten(@kw-brand-info, 33%);
+@state-info-border:              darken(spin(@state-info-bg, -10), 7%);
+
+@state-warning-text:             @kw-brand-danger;
+@state-warning-bg:               lighten(@kw-brand-danger, 36%);
+@state-warning-border:           darken(spin(@state-warning-bg, -10), 3%);
+
+@state-danger-text:              @kw-brand-warning;
+@state-danger-bg:                lighten(@kw-brand-warning, 28%);
+@state-danger-border:            darken(spin(@state-danger-bg, -10), 3%);
+
+
+
+
+
+
+
+
+
+

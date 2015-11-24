@@ -60,7 +60,7 @@ echo '<li role="presentation" class="divider"></li><li role="presentation" class
           $title = preg_replace("/\-/i", " ", $filename);
           echo '<div class="col-lg-12 sg-section" id="sg-'.$filename.'">';
           echo '<div class="sg-display">';
-          echo '<h2 class="sg-h2">'.$title.'</h2>';
+          //echo '<h2 class="sg-h2">'.$title.'ooooooiwww</h2>';
           include('docs/'.$file);
           echo '</div><!--/.sg-display-->';
           echo '</div><!--/.sg-section-->';

@@ -1,0 +1,350 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"kw-ne",
+				"kw-neutral-blue"
+			],
+			[
+				"kw-light",
+				"kw-neutral-light"
+			],
+			[
+				"kw-brand",
+				"kw-brand-secondary"
+			],
+			[
+				"kw-neu",
+				"kw-neutral-medium"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"kw-neutra",
+				"kw-neutral-blue"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LESS-build/LESS.sublime-build",
+					""
+				],
+				[
+					"Packages/LESS-build/LESS.sublime-build",
+					"Minify"
+				]
+			],
+			[
+				"Packages/LESS-build/LESS.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 227.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition"
+	],
+	"file_history":
+	[
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/Kiwi-StyleGuide.sublime-project",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/css/kw-dashboard-theme.css",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/mixins.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/index.php",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/button-groups.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/variables.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/bootstrap.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/styleguide.less",
+		"/Users/tiago.cardoso/GitHub/kiwi-manager-ui-prototype/css/kiwi.css",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/forms.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/css/kw-grid.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/css/kw-mixins.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/css/kw-forms.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/css/kw-dashboard-theme.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/README.md",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/css/kw-variables.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/markup/patterns/forms.html",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/grid.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/markup/base/footer.html",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/buttons.less",
+		"/Users/tiago.cardoso/GitHub/kiwi-manager-ui-prototype/css/bootstrap.css",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/css/kw-buttons.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/markup/base/buttons.html",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/foundation/colors.html",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/css/mixins.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/docs/about.html",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/component-animations.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/scaffolding.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/kw-less/kw-dashboard-theme.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/kw-less/kw-variables.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/usage/base/buttons.html",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/alerts.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/theme.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/css/styleguide.css",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/type.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/functions.php",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/markup/base/text-elements.html",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/foundation/typography.html",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/markup/base/ferro-na-boneca.html",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/usage/patterns/breadcrumbs.html",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/usage/base/address.html",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/usage/base/text-elements.html",
+		"/Users/tiago.cardoso/Library/Application Support/Sublime Text 3/Packages/LESS/LESS.sublime-settings",
+		"/Users/tiago.cardoso/Library/Application Support/Sublime Text 3/Packages/Less2Css/less2css.sublime-settings",
+		"/Users/tiago.cardoso/Library/Application Support/Sublime Text 3/Packages/User/less2css.sublime-settings",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/kw-less/kiwi-dashboard-theme.less",
+		"/Users/tiago.cardoso/Desktop/_analytics/css/estilo.less",
+		"/Users/tiago.cardoso/Library/Application Support/Sublime Text 3/Packages/User/LESS.sublime-settings",
+		"/Users/tiago.cardoso/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/tiago.cardoso/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/tiago.cardoso/Library/Application Support/Sublime Text 3/Packages/LESS/README.md",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/kw-less/kiwi-dashboard-theme",
+		"/Users/tiago.cardoso/Desktop/_analytics/css/teste-less.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/kw-less/kw-colors.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/kw-colors.less",
+		"/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition/less/kw-less/kw-dashboard-theme"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"screen-sm-min",
+			"form-control",
+			"form-group",
+			"kw-form-group",
+			"form-inline",
+			"grid-gutter-widt",
+			"state-success-text",
+			"input-height-small",
+			"border-radius-base",
+			"input-border-radius",
+			"border-radius-base",
+			"input-border-radius",
+			"border-radius-base",
+			"kw-border-radius-base",
+			"input-border-radius",
+			"kw-input-border-radius",
+			"form-control",
+			"legend-color",
+			"Delete",
+			"letter-spacing",
+			"link-hover-color",
+			"user-select",
+			".tab-focus",
+			"kw-button-size",
+			".tab-focus",
+			"button-size",
+			"kw-button-size",
+			"line-height-base",
+			"button-size",
+			"padding-base-vertical",
+			"button",
+			"padding-base-vertical",
+			"buttons",
+			"brand-primary",
+			"padding",
+			"mark",
+			"  \n",
+			"\">.",
+			"uppercase",
+			"sg-color",
+			"colors",
+			"sg-color-swatch ",
+			"sg-brand-primary",
+			"sg-color",
+			";\n",
+			"sg",
+			"color"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"kw"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/tiago.cardoso/GitHub/Style-Guide-Boilerplate-Bootstrap-Edition"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 171.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/LESS-build/LESS.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 301.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,226 @@
+/* -------------------------------------------------------------------------
+
+ Style Guide Kiwi v0.1
+ Original Repo: https://github.com/kemie/Style-Guide-Boilerplate-Bootstrap-Edition
+ Customized by: Tiago Cardoso
+ License: MIT
+
+---------------------------------------------------------------------------- */
+
+
+//Includes
+
+@import "../less/bootstrap.less";
+@import "kw-variables.less";
+@import "kw-type.less"; 
+@import "kw-buttons.less"; 
+@import "kw-footer.less"; 
+
+@import "../less/utilities.less";
+
+
+// ONLY FOR STYLE GUIDE LAYOUT
+@import "kw-styleguide.less"; // Only custom layout styleguide
+
+//Custom text color labels forms
+.form-group label, textarea{
+	color: @kw-brand-secondary;   
+}
+
+//Custom text bold inputs forms
+.form-group input, textarea{
+	font-weight: @headings-font-weight; 
+}
+
+//Include cancel style button
+.btn-cancel { 
+  .button-variant(@btn-cancel-color; @btn-cancel-bg; @btn-cancel-border); 
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------
+ Dashboard styles customizations 
+---------------------------------------------------------------------------- */
+
+//buttons groups and drodown for 'filter/range' charts
+
+.kw-btn-dash-fonts {
+	font-size: @font-size-small;
+	font-weight: @font-bold-weight;
+	color: @kw-brand-secondary;
+}
+
+.kw-btn-dash-active{
+  &,
+  &:active,
+  &.active {
+    &:focus {
+      background-color: @kw-bgr-btn-color;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    color: @kw-brand-complementary;
+    text-decoration: none;
+  }
+}
+
+
+.kw-dash-btn {
+	background-color: #FFF;
+	height: 35px;
+	border: 1px solid @kw-btn-groups;
+	line-height: 0.12; //
+	.kw-btn-dash-fonts;
+	.kw-btn-dash-active;
+}
+
+
+.kw-by-text{
+
+	  display: inline-block;
+	  font-weight: @font-bold-weight;
+	  font-size: @font-size-small;
+	  color: @kw-brand-secondary;
+	  margin: 0 10px 0 10px;
+}
+
+
+.kw-caret-dropdown{
+	
+	  position: absolute;
+      width: 35px;
+      height: 35px;
+	  background: @kw-bgr-btn-color url('@{url-image-path}triangule-bottom.png') no-repeat center;
+	  border-top-right-radius: 4px;
+	  border-bottom-right-radius: 4px;
+	  margin-left: 20px;
+	  margin-top: -17px;
+	  border: 1px solid @kw-btn-groups;	  
+}
+
+
+// Dropdown header 'switch product or application'
+
+@test: red;
+
+.kw-product-app{
+	color: @kw-neutral-light;
+	font-size: @font-size-medium;
+}
+
+
+.kw-dropdown-switch{
+	background-color: @dropdown-color-switch;
+	height: 35px;
+	border: 1px solid @dropdown-border-switch;
+	line-height: 0.12;
+	.kw-btn-dash-fonts;
+	color: @kw-brand-danger;
+
+		  &,
+		  &:active,
+		  &.active {
+		    &:focus {
+		      background-color: @kw-brand-primary;
+		    }
+		  }
+
+		  &:hover,
+		  &:focus {
+		    color: @kw-brand-danger;
+		    text-decoration: none;
+	  }
+}
+
+
+.kw-caret-dropdown-switch{
+	 .kw-caret-dropdown;
+	 background: @dropdown-color-switch url('@{url-image-path}triangule-bottom.png') no-repeat center;
+	 border: 1px solid @dropdown-border-switch;
+
+}
+
+/* -------------------------------------------------------------------------
+ Titles Charts
+---------------------------------------------------------------------------- */
+
+.bg-titles-graphs{
+    background-image: url('@{url-image-path}line-bottom-title.png');
+    background-size: 21px 3px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.bg-titles-graphs h3{
+    font-size: @font-size-large;
+    padding-bottom: 10px;
+    color: @kw-brand-secondary;
+}
+
+
+/* -------------------------------------------------------------------------
+ Tables default styles Kiwi
+---------------------------------------------------------------------------- */
+
+// Baseline styles
+
+.table {
+  width: 100%;
+  margin-bottom: @line-height-computed;
+  // Cells
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        padding: @table-cell-padding;
+        line-height: @line-height-tables;
+        vertical-align: top;
+        border-top: 1px solid @table-border-color;
+      }
+    }
+  }
+  // Bottom align for column headings
+  > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid @table-border-color;
+  }
+  // Remove top border from thead by default
+  > caption + thead,
+  > colgroup + thead,
+  > thead:first-child {
+    > tr:first-child {
+      > th,
+      > td {
+        border-top: 0;
+      }
+    }
+  }
+  // Account for multiple tbody instances
+  > tbody + tbody {
+    border-top: 2px solid @table-border-color;
+  }
+
+  // Nesting
+  .table {
+    background-color: @body-bg;
+  }
+}
+
+.table > thead > tr > th {
+	color: @kw-brand-secondary;
+}
+
+
+
+
+
+
+
